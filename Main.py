@@ -1,12 +1,11 @@
 import subprocess
 import sys
 
-def InstReq(): # defines the function that ibstalls the requirements
-    libs = ["pyautogui", "keyboard"] #define the libraries here
+def install_libraries():
+    with open('requirements.txt', 'r') as f:
+        required_libraries = f.read().splitlines()
     # Install all required libraries in one subprocess call
-    subprocess.check_call([sys.executable, "-m", "pip", "install", *libs])
-
-    # the subprocess will type "Python.exe -m pip install" and then your libraries
+    subprocess.check_call([sys.executable, "-m", "pip", "install", *required_libraries])
 
 # Install required libraries
-instReq()
+install_libraries()
