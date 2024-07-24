@@ -11,24 +11,43 @@ This repository contains a script to automatically install a list of required Py
 The `requirements.txt` file includes the following libraries, some with specific versions:
 
 pyautogui
+
 keyboard
+
 requests==2.28.1
+
 numpy>=1.21.0
+
 pandas==1.3.5
+
 scipy
+
 matplotlib>=3.4.0
+
 scikit-learn==0.24.2
+
 flask
+
 django>=3.2
+
 beautifulsoup4==4.9.3
+
 pillow>=8.0.0
+
 tensorflow==2.6.0
+
 torch==1.9.0
+
 seaborn>=0.11.0
+
 sqlalchemy>=1.4
+
 pytest==6.2.4
+
 jupyter
+
 lxml==4.6.3
+
 opencv-python>=4.5.1.48
 
 ## Usage
