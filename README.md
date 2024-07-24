@@ -52,7 +52,7 @@ opencv-python>=4.5.1.48
 
 ## Usage
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine: (i will add the .git file later lol)
     ```sh
     git clone https://github.com/Natzkiiii/
     ```
