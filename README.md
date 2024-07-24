@@ -54,12 +54,12 @@ opencv-python>=4.5.1.48
 
 1. Clone the repository to your local machine:
     ```sh
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/Natzkiiii/
     ```
 
 2. Navigate to the repository directory:
     ```sh
-    cd your-repo-name
+    cd PyLibInstaller/
     ```
 
 3. Ensure you have Python 3.x installed. You can check your Python version with:
@@ -84,6 +84,7 @@ library_name==version
 or
 
 library_name>=minimum_version
+```
 
 ## License
 
