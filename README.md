@@ -1,6 +1,8 @@
 # Python Library Installer (PyLibInst)
 This repository contains a script to automatically install a list of required Python libraries using `pip`.
 
+NOTE: This code may be used, provided that it is explicitly stated in the description that the code was created by me.
+
 ## Requirements
 
 - Python 3.x
